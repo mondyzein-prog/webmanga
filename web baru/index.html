@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mang4.u</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d0f16;
+            color: white;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #11131a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #ff7b00;
+        }
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ff7b00;
+        }
+        .search-box {
+            width: 400px;
+            padding: 12px 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: #1a1d27;
+            color: white;
+            transition: 0.3s;
+        }
+        .search-box:focus {
+            outline: 2px solid #ff7b00;
+        }
+        .container {
+            padding: 40px;
+        }
+        h2 {
+            font-size: 26px;
+            margin-bottom: 25px;
+            color: #ff7b00;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            transition: 0.3s;
+            cursor: pointer;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+        .card img {
+            width: 120px;
+            height: 160px;
+            opacity: 0.9;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .title {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .chapters {
+            font-size: 14px;
+            opacity: 0.85;
+        }
+        .read-btn {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            background-color: #ff7b00;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .read-btn:hover {
+            background-color: #ff5900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MANG4.U</div>
+        <input type="text" class="search-box" placeholder="Search Manga..." />
+        <nav>
+            <a href="C:\Users\THINKPAD\Documents\index.html">HOME</a>
+            <a href="C:\Users\THINKPAD\Desktop\html\all anime index.html">ALL MANGA</a>
+            
+            
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Populer</h2>
+        <div class="card-grid">
+            <div class="card" style="background: linear-gradient(135deg, #0974f1, #00b4ff);">
+                <img src="C:\Users\THINKPAD\Desktop\html\Spy-X-Family-VOLUME-014-HEADER.jpg" alt="Cover" />
+                <div class="title">Spy X Family</div>
+                <div class="chapters">124 chapters</div>
+                <a href="C:\Users\THINKPAD\Desktop\html\Op index.html"><button class="read-btn">READ NOW</button>
+                </a>
+            </div>
+            <div class="card" style="background: linear-gradient(135deg, #a83232, #ff6a00);">
+                <img src="C:\Users\THINKPAD\Desktop\html\Chainsaw-Man-VOLUME-017-HEADER.jpg" alt="Cover" />
+                <div class="title">Chainsaw Man</div>
+                <div class="chapters">170 chapters</div>
+                <a href="C:\Users\THINKPAD\Desktop\html\CM index.html"><button class="read-btn">READ NOW</button>
+                </a>
+            </div>
+            <div class="card" style="background: linear-gradient(135deg, #00c97b, #00ff95);">
+                <img src="C:\Users\THINKPAD\Desktop\html\Jujutsu-Kaisen-VOLUME-030-HEADER.jpg" alt="Cover" />
+                <div class="title">Jujutsu Kaisen</div>
+                <div class="chapters">275 chapters</div>
+                <a href="C:\Users\THINKPAD\Desktop\html\JK index.html"><button class="read-btn">READ NOW</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color:#11131a; padding:40px 20px; text-align:center; color:#ccc; margin-top:40px; border-top:2px solid #1f2230;">
+        <div style="font-size:22px; font-weight:bold; margin-bottom:10px; color:white;">MANGA WORLD</div>
+        <p style="max-width:600px; margin:0 auto 20px; line-height:1.6;">
+            Temukan manga favoritmu dan nikmati pengalaman membaca yang cepat, ringan, dan penuh warna.
+        </p>
+
+        <div style="margin:20px 0; display:flex; justify-content:center; gap:25px;">
+            <a href="#" style="color:#ff7b00; text-decoration:none; font-weight:bold;">Privacy Policy</a>
+            <a href="#" style="color:#ff7b00; text-decoration:none; font-weight:bold;">Terms of Service</a>
+            <a href="#" style="color:#ff7b00; text-decoration:none; font-weight:bold;">Contact</a>
+        </div>
+
+        <div style="margin-top:15px; font-size:14px; color:#777;">&copy; 2025 Manga Website. All Rights Reserved.</div>
+    </footer>
+</body>
+</html>
